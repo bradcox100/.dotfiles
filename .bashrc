@@ -131,3 +131,6 @@ eval "$(starship init bash)"
 if [[ ! " ${PROMPT_COMMAND[@]} " =~ " starship_precmd " ]]; then
     PROMPT_COMMAND+=(starship_precmd)
 fi
+
+eval "$(starship init bash)"
+fastfetch
