@@ -1,3 +1,4 @@
+separator_block_width=0
 
 # Settings icon - click to open GNOME Control Center
 [settings]
@@ -5,6 +6,7 @@ command=~/.config/i3blocks/scripts/settings.sh
 interval=once
 markup=pango
 signal=10
+background=#0066cc
 
 # Separator
 [separator]
@@ -31,3 +33,5 @@ separator_block_width=10
 [time]
 command=date '+%m-%d-%y %I:%M %p'
 interval=60
+color=#cca300
+
